@@ -1,5 +1,6 @@
 from tkinter import *
 main = Tk()
+main.title("Calculator")
 
 def clear():
   label["text"] = ""
