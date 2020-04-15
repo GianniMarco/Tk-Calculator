@@ -1,13 +1,15 @@
 from tkinter import *
 main = Tk()
 main.title("Calculator")
-
 def clear():
   label["text"] = ""
 
 def insert(num):
   current_text = label["text"]
-  label["text"] = current_text + str(num)
+  if len(current_text) != 19:
+    label["text"] = current_text + str(num)
+  else:
+    label["text"] = "Too long"
 
 def delete():
   current_text = label["text"]
