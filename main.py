@@ -1,3 +1,9 @@
+'''
+Program made in: 16/04/2020
+Athors: Misha08, OrangoMango
+Language: Python 3 Tkinter
+'''
+
 from tkinter import *
 main = Tk()
 main.title("Calculator")
